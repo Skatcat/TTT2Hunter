@@ -45,7 +45,7 @@ if CLIENT then
 		LANG.AddToLanguage("English", "info_popup_" .. HUNTER.name,
 			[[You are a Hunter!
 				Lay traps and hunt evildoers!]])
-		LANG.AddToLanguage("English", "body_found_" .. HUNTER.abbr, "This was a Hunter...")
+		LANG.AddToLanguage("English", "body_found_" .. HUNTER.abbr, "They were a Hunter...")
 		LANG.AddToLanguage("English", "search_role_" .. HUNTER.abbr, "This person was a Hunter!")
 		LANG.AddToLanguage("English", "target_" .. HUNTER.name, "Hunter")
 		LANG.AddToLanguage("English", "ttt2_desc_" .. HUNTER.name, [[The Hunter lays traps and uses his trusty Ranger Bow!]])
@@ -55,12 +55,12 @@ if CLIENT then
 		-- maybe this language as well...
 		LANG.AddToLanguage("Deutsch", HUNTER.name, "Jäger")
 		LANG.AddToLanguage("Deutsch", "info_popup_" .. HUNTER.name,
-			[[Du bist ein Arzt!
+			[[Du bist ein Jäger!
 				Versuche zu überleben und beschütze dein Team, wenn es möglich sein sollte!]])
 		LANG.AddToLanguage("Deutsch", "body_found_" .. HUNTER.abbr, "Er war ein Jäger...")
 		LANG.AddToLanguage("Deutsch", "search_role_" .. HUNTER.abbr, "Diese Person war ein Jäger!")
 		LANG.AddToLanguage("Deutsch", "target_" .. HUNTER.name, "Jäger")
-		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. HUNTER.name, [[Der Arzt heilt Leute!]])
+		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. HUNTER.name, [[Der Jäger stellt Fallen!]])
 	end)
 end
 
