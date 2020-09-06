@@ -61,6 +61,17 @@ if CLIENT then
 		LANG.AddToLanguage("Deutsch", "search_role_" .. HUNTER.abbr, "Diese Person war ein Jäger!")
 		LANG.AddToLanguage("Deutsch", "target_" .. HUNTER.name, "Jäger")
 		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. HUNTER.name, [[Der Jäger stellt Fallen!]])
+		
+		---------------------------------
+		
+		LANG.AddToLanguage("Русский", HUNTER.name, "Охотник")
+		LANG.AddToLanguage("Русский", "info_popup_" .. HUNTER.name,
+			[[Вы охотник!
+				Расставляйте ловушки и охотьтесь на злодеев!]])
+		LANG.AddToLanguage("Русский", "body_found_" .. HUNTER.abbr, "Он был охотником...")
+		LANG.AddToLanguage("Русский", "search_role_" .. HUNTER.abbr, "Этот человек был охотником!")
+		LANG.AddToLanguage("Русский", "target_" .. HUNTER.name, "Охотник")
+		LANG.AddToLanguage("Русский", "ttt2_desc_" .. HUNTER.name, [[Охотник ставит ловушки и использует свой верный лук следопыта!]])
 	end)
 end
 
